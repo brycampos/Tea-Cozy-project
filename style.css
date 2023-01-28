@@ -1,0 +1,154 @@
+html, body {
+	font-family: Helvetica;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	font-size: 22px;
+}
+
+body {
+	padding-top: 69px;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* header section */
+
+header {
+	background-color: black;
+	border-bottom: 1px solid seashell;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 69px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+
+.logo {
+	height: 50px;
+	margin-left: 10px;
+}
+
+
+/* links */
+li {
+	list-style: none;
+	margin: 0 1rem;
+}
+
+a {
+	color: seashell;
+}
+
+ul {
+	display: inline-flex;
+	padding: 0;
+}
+
+/* hero section */
+.hero {
+	background-image: url(img/mission-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 0 2rem;
+	height: 700px;
+	display: flex;
+	align-items: center;
+}
+
+.hero-text {
+	background-color: black;
+	width: 100%;
+	text-align: center;
+	padding: .5rem;
+}
+
+h2 {
+	margin-bottom: 1rem;
+}
+
+
+/* gallery section */
+.tea-section {
+	width: 1000px;
+	margin: 3rem auto;
+}
+
+.tea-section_text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: .5rem;
+}
+
+.gallery-item {
+	width: 300px;
+	height: 200px;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: space-around;
+}
+
+figcaption {
+	text-align: center;
+}
+
+figure {
+	margin: .7rem;
+}
+
+/* locations section */
+.locations {
+	background-image: url(img/locations-background.jpg);
+	height: 500px;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.location-item {
+	background-color: black;
+	width: 300px;
+	height: 300px;
+	margin: 0 20px;
+	text-align: center;
+	line-height: 3;
+}
+
+.locations-box {
+	display: flex;
+}
+
+.locations-title {
+	margin: 15px;
+}
+
+/* footer section */
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 1rem;
+}
+
+.phone {
+	margin: 2rem 0;
+}
+
+.copy {
+	align-self: flex-start;
+	margin: 2rem 20px;
+}
